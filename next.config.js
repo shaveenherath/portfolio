@@ -1,10 +1,7 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  output: "export",
-  basePath: "/portfolio",
-  images: {
-    unoptimized: true
-  }
+/**
+ * next.config.js
+ * Configure static export behavior for GitHub Pages
+ */
+module.exports = {
+  trailingSlash: true
 }
-
-module.exports = nextConfig

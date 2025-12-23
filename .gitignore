@@ -1,0 +1,46 @@
+# Node modules
+node_modules/
+
+# Next.js build output
+.next/
+out/
+dist/
+build/
+
+# Production env files
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor directories and files
+.vscode/
+.idea/
+
+# Coverage
+coverage/
+
+# Mac and Linux swap
+*.swp
+
+# Misc
+.cache/
+.parcel-cache/
+.turbo/
+.pnp.*
+.eslintcache
+.nyc_output/
+
+# Vercel / output
+.vercel/
+.vercel/output/
